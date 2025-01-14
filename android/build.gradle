@@ -7,7 +7,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', 23)
     buildToolsVersion safeExtGet('buildToolsVersion', "23.0.1")
-
+    namespace 'com.rssignaturecapture'
     defaultConfig {
         minSdkVersion safeExtGet('minSdkVersion', 16)
         targetSdkVersion safeExtGet('targetSdkVersion', 22)
